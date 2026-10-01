@@ -1,0 +1,39 @@
+[ {
+  "numero" : "QJS",
+  "fecha" : "2026-10-01",
+  "cliente" : {
+    "tipoPersona" : "cliente",
+    "nombre" : "Jeremias",
+    "domicilio" : "Sin especificar",
+    "dni" : 47424138,
+    "telefono" : "0000-0000",
+    "limiteCredito" : 30000,
+    "categoria" : "REGULAR"
+  },
+  "itemsComprados" : [ {
+    "tipoItem" : "producto",
+    "codigo" : "TDV",
+    "nombre" : "Teclado",
+    "precio" : 22267,
+    "proveedor" : {
+      "tipoPersona" : "proveedor",
+      "nombre" : "Distribuidora Sur",
+      "domicilio" : "Ruta 12 km 5",
+      "dni" : 20111222,
+      "telefono" : "1235343235",
+      "cuit" : "30-12345678-9",
+      "razonsocial" : "Distribuidora Sur SRL"
+    },
+    "fechaVencimiento" : null,
+    "stock" : 11,
+    "tipo" : "Producto"
+  } ],
+  "formapago" : "EFECTIVO",
+  "pago" : {
+    "monto" : 22267.0,
+    "fecha" : "2026-10-01",
+    "formapago" : "EFECTIVO",
+    "estado" : "CANCELADO"
+  },
+  "total" : 22267.0
+} ]
